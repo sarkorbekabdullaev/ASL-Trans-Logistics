@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.header {
+    height: 100vh;
+    background: url(https://www.volvogroup.com/content/dam/volvo/volvo-group/markets/global/en-en/news/2019/oct/1860x1050-pressrelease-bendix-wingman-fusion-vg-na-2019.jpg) no-repeat center center / cover;
+    /* background: url(../img/bg.jpg) no-repeat center center/ cover; */
+    /* background: url(https://image.shutterstock.com/image-photo/american-style-truck-on-freeway-260nw-528660739.jpg) no-repeat center center / cover;
+     */
+    /* background: url(../ATL-logo/dark.jpg) no-repeat center center / cover; */
+    transition: 0.4s;
+}
+
+.bg-light {
+    --bs-bg-opacity: 0;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.navbar-light .navbar-brand {
+    color: #4f4e4e;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #4f4e4e;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #4f4e4e;
+    margin-left: 30px;
+    transition: 0.4s;
+    text-transform: uppercase;
+    font-weight: 450;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    transform: scale(1.1);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    cursor: auto;
+}
+
+.header-heading {
+    color: #4f4e4e;
+    margin-top: 6%;
+    text-transform: uppercase;
+}
+
+.header-paragraph {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.header-button {
+    background: #1f4e31cb;
+    border: none;
+    margin-top: 50px;
+    padding: 10px 20px;
+    box-shadow: 0 0 3px 3px #1f4e31cb;
+    transition: 0.4s;
+}
+
+.header-button:hover {
+    background: #1f4e31f6;
+    transform: scale(1.1);
+    box-shadow: 0 0 2px 2px #1f4e31f6;
+}
+
+.header-button i {
+    margin-left: 5px;
+}
+
+.header-button a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+img {
+    width: 200px;
+    height: 40px;
+}
+
+
+/* --------------SECTION------------- */
+
+.section__about {
+    box-shadow: 0px -15px 20px 10px white;
+    text-align: center;
+    padding: 70px 210px;
+}
+
+.section__about-h3 {
+    margin-bottom: 35px;
+}
+
+.section__about__text-paragraph {
+    max-width: 400px;
+    text-align: justify;
+    font-size: 18px;
+    letter-spacing: 0.22px;
+    color: #4d5053;
+}
+
+.section__services {
+    text-align: center;
+    padding: 60px 150px;
+}
+
+.section__services-h3 {
+    margin-bottom: 50px;
+}
+
+.section__services_service {
+    max-width: 450px;
+    margin-bottom: 20px;
+}
+
+.section__services_service i {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #4d5053;
+}
+
+.section__services_service-paragraph {
+    font-size: 18px;
+    letter-spacing: 0.22px;
+    color: #4d5053;
+}
+
+.section__services_service-h5 {
+    font-size: 25px;
+}
+
+
+/* --------------People thinks--------------- */
+
+.section-think__people-thoughts {
+    margin: 140px 0;
+    padding: 70px 50px 50px 50px;
+    background: #f4f0ec;
+    border-radius: 70px;
+}
+
+.section-think__people-thoughts__heading-h3 {
+    font-size: 45px;
+    letter-spacing: 0.22px;
+    margin-bottom: 47px;
+    text-align: center;
+}
+
+.section-think__people-thoughts__heading {
+    display: flex;
+    justify-content: center;
+}
+
+.section-think__people-thoughts__thoughts__person-think {
+    display: flex;
+    align-items: flex-start;
+}
+
+.section-think__people-thoughts__thoughts {
+    background: #ffffff;
+    border-radius: 30px;
+    max-width: 336px;
+    padding: 50px 32px 45px 35px;
+}
+
+.section-think__people-thoughts__thoughts__person-think-img {
+    margin: 0 20px 25px 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.section-think__people-thoughts__thoughts__person-think__name-location-h5 {
+    font-size: 25px;
+    letter-spacing: 0.22px;
+    color: #292f36;
+}
+
+.section-think__people-thoughts__thoughts-paragraph {
+    font-size: 20px;
+    letter-spacing: 0.22px;
+    color: #4d5053;
+}
+
+.section-think__people-thoughts__thoughts__person-think__name-location-paragraph {
+    font-size: 18px;
+    letter-spacing: 0.22px;
+    color: #4d5053;
+}
+
+
+/* ---------------FOOTER------------------- */
+
+.footer {
+    padding: 70px 0 120px 0;
+    background: black;
+}
+
+.footer__img__logos-img {
+    margin-bottom: 30px;
+}
+
+.footer__img__logos-icons i {
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+    transition: 0.4s;
+}
+
+.footer__img__logos-icons i:hover {
+    transform: scale(1.5);
+}
+
+.footer__img__partner-h4 {
+    color: white;
+    margin-right: 20px;
+}
