@@ -15,7 +15,7 @@
 .header_backgorund {
     position: absolute;
     background: url(../img/bg_way.jpg) no-repeat center center / cover;
-    filter: brightness(40%);
+    filter: brightness(30%);
     z-index: -1;
     height: 100vh;
     width: 100%;
@@ -57,28 +57,35 @@
 }
 
 .header-button {
-    background: #1f4e31cb;
-    border: none;
+    color: #ffffff;
+    background: none;
+    border: 2px solid #ffffff;
     margin-top: 50px;
     padding: 10px 20px;
-    box-shadow: 0 0 3px 3px #1f4e31cb;
     transition: 0.4s;
 }
 
 .header-button:hover {
-    background: #1f4e31f6;
+    color: black;
+    background: #f5f0f0;
     transform: scale(1.1);
-    box-shadow: 0 0 2px 2px #1f4e31f6;
+    box-shadow: 0 0 2px 2px #ffffff;
 }
 
 .header-button i {
+    color: #ffffff;
     margin-left: 5px;
 }
 
 .header-button a {
-    color: black;
+    color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.header-button:hover a,
+.header-button:hover i {
+    color: black;
 }
 
 .navbar_brand-img {
@@ -214,6 +221,8 @@
 }
 
 .footer__img__logos-img {
+    width: 200px;
+    height: 40px;
     margin-bottom: 30px;
 }
 
