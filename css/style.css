@@ -37,6 +37,7 @@
 .navbar-light .navbar-nav .nav-link:hover {
     color: #ffffff;
     transform: scale(1.1);
+    letter-spacing: 0.7px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -244,4 +245,10 @@
 .footer__img__partner-h4 {
     color: white;
     margin-right: 20px;
+}
+
+.footer__img__partner-img {
+    width: 220px;
+    height: 55px;
+    filter: brightness(120%);
 }
