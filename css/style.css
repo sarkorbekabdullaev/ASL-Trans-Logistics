@@ -40,8 +40,8 @@
     letter-spacing: 0.7px;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    cursor: auto;
+.navbar-light .navbar-nav .nav-link .nav-item {
+    cursor: pointer;
 }
 
 .header-heading {
