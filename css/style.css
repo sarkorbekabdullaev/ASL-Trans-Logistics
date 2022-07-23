@@ -44,6 +44,27 @@
     cursor: pointer;
 }
 
+.dropdown-menu {
+    background: #ffffff54;
+    filter: opacity(80%);
+    transition: 0.4s;
+}
+
+.dropdown-menu:hover {
+    box-shadow: 0 0 2px 2px #ffffff;
+}
+
+.dropdown-menu img {
+    width: 25px;
+    height: 18px;
+    margin-top: -5px;
+}
+
+.nav-item .nav-link img {
+    width: 23px;
+    height: 16px;
+}
+
 .header-heading {
     color: #ffffff;
     margin-top: 6%;
